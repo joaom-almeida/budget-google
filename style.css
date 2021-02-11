@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 5%;
+}
+
+.nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+.nav li {
+    display: inline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85%;
+}
+
+#search-form {
+    max-width: 50%;
+}
+
+#search-text {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    height: 10%;
+}
+
+.footer-section {
+    height: 50%;
+    background-color:rgb(218, 220, 224);
+}
