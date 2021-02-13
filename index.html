@@ -9,39 +9,55 @@
 </head>
 <body>
     <header>
-        <navbar class="nav">
-            <ul>
-                <li><a href=""></a>Gmail</li>
-                <li><a href=""></a>Images</li>
-                <li><a href="">:::</a></li>
-                <li><a href="">Me</a></li>
-            </ul>
-        </navbar>
+        <div class="header-section">
+            <a href="">Gmail</a>
+        </div>
+        <div class="header-section">
+            <a href="">Images</a>
+        </div>
+        <div class="header-section">
+            <img id="menu_icon" src="https://i.imgur.com/6P6OHSR.png" width="24" height="24">
+        </div>
+        <div class="header-section">
+            <img id="menu_icon" src="https://i.imgur.com/XVQqHSI.png" width="24" height="24">
+        </div>
     </header>
     <main>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form id="search-form">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <input
               type="text"
               id="search-text"
               name="search-text"
               required
             />
-            <button type="submit" id="submit" class="submit-button">
-            Google Search
-            </button>
-            <button type="lucky" id="lucky" class="lucky-button">
-            I'm Feeling Lucky
-            </button>
+            <div class="search-buttons">
+                <button type="submit" id="submit" class="submit-button">
+                Google Search
+                </button>
+                <button type="lucky" id="lucky" class="lucky-button">
+                I'm Feeling Lucky
+                </button>
+            </div>
+            <p>Google offered in: <a href="https://google.com">English</a></p>
         </form>
-        <p>Google offered in: <a href="https://google.com">English</a></p>
     </main>
     <footer>
-        <div class="footer-section">
-
+        <div class="footer-section" id="first-footer">
+            <p>Brazil</p>
         </div>
         <div class="footer-section">
-
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search works</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
         </div>
     </footer>
 </body>
